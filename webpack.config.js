@@ -5,7 +5,7 @@ const webpack = require("webpack"),
       merge = require('lodash/merge');
 
 const env = {'process.env': {NODE_ENV: JSON.stringify(process.env.NODE_ENV)}};
-const bundleFilePath = (process.env.NODE_ENV === 'production') ? '/iTracker2.0/build/' : '/build/';
+const bundleFilePath = (process.env.NODE_ENV === 'production') ? '/appName2.0/build/' : '/build/';
 const externals = ['react-native'];
 
 const loaders = [{
